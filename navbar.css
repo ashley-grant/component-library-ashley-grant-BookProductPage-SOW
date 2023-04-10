@@ -1,0 +1,36 @@
+nav {
+    display: flex;
+}
+.style-nav {
+    
+}
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.nav-item {
+    display: flex;
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    background-color: red;
+    padding: 10px 20px 10px;
+    margin: 10px 10px 10px 10px;
+}
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+
+}
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
+}
