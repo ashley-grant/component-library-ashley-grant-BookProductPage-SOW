@@ -2,16 +2,21 @@ div {
     font-family: 'Quicksand', sans-serif;
 }
 img {
+    margin-left: 18px;
     max-width: 250px;
 }
-a {
+.btn {
+    display: flex;
+    justify-content: center;
     background-color: red;
+    border-radius: 8px;
     color: white;
     text-decoration: none;
-    padding: 5;
+    padding: 10;
     border: 3px black;
 }
 .card {
     width: 18rem;
-    
+    border: grey solid;
+    border-radius: 10px;
 }
