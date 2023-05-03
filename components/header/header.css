@@ -16,29 +16,21 @@ body {
     font-family: 'Shadows Into Light', cursive;
     font-size: 25px;
 }
-
-
 .logo-image {
     max-width: 20%;
 }
- 
-
-
 nav {
     background-color: rgb(193, 136, 101);
     overflow: hidden;
 }
-  
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
-  
 nav li {
     float: left;
 }
-  
 nav li a {
     display: block;
     color: white;
@@ -46,19 +38,12 @@ nav li a {
     padding: 14px 16px;
     text-decoration: none;
 }
-  
 nav li a:hover {
     background-color: #111;
 }
-
-  
-
-
-
 .breadcrumb {
     padding: 0 .5rem;
 }
-
 .breadcrumb ul {
     display: flex;
     flex-wrap: wrap;
@@ -66,15 +51,11 @@ nav li a:hover {
     margin: 0;
     padding: 0;
 }
-
 .breadcrumb li:not(:last-child)::after {
     display: inline-block;
     margin: 0 .25rem;
     content: "→";
 }
-
-
-
 div {
     font-family: 'Quicksand', sans-serif;
 }
@@ -97,15 +78,11 @@ img {
     border: grey solid;
     border-radius: 10px;
 }
-
-
-
 footer {
     background-color: rgb(193, 136, 101);
     color: #fff;
     padding: 20px;
 }
-  
 .footer-container {
     max-width: 960px;
     margin: 0 auto;
@@ -113,28 +90,22 @@ footer {
     justify-content: space-between;
     align-items: center;
 }
-  
 .footer-container p {
     margin: 0;
 }
-  
 .footer-container ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
 }
-  
 .footer-container li {
     margin: 0 10px;
 }
-  
 .footer-container li a {
     color: #fff;
     text-decoration: none;
 }
-  
 .footer-container li a:hover {
     text-decoration: underline;
 }
-  
